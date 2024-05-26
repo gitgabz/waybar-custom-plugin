@@ -54,7 +54,7 @@ func triggerBySignal() {
 				"tooltip": false,
 				"signal": 8,
 				"interval": 12,
-				"exec": "~/.local/bin/waybar_plugin -s 8",
+				"exec": "~/.local/bin/waybar_plugin -s",
 				"on-click": "pkill -RTMIN+8 waybar",
 				"return-type": "json"
 		}
@@ -72,7 +72,6 @@ func loopOutput() {
 				"max-length": 40,
 				"tooltip": false,
 				"exec": "~/.local/bin/waybar_plugin",
-				"on-click": "pkill -RTMIN+8 waybar",
 				"return-type": "json"
 			}
 	*/
