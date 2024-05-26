@@ -1,4 +1,4 @@
-This is a quick go sample for to create a custom waybar plugin.
+This is a quick go sample to create a custom waybar plugin.
 
 It can run either with self updating output or though SIGRTMIN+N signal with a refresh interval.
 
