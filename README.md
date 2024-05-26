@@ -1,9 +1,9 @@
 This is a quick go sample to create a custom waybar plugin.
 
-It can run either with self updating output or though SIGRTMIN+N signal with a refresh interval.
+It can run either with self updating output or through SIGRTMIN+N signal with a refresh interval.
 
 ### Refresh by interrupt signal, restarts the process that has exited.  
-The process runs once, outputs and dies. Then it is triggered by interval though signal or directly by SIGRTMIN+8 signal "pkill -RTMIN+8 waybar"
+The process runs once, outputs and dies. Then it is triggered by interval through signal or directly by SIGRTMIN+8 signal "pkill -RTMIN+8 waybar"
 ```
 "custom/plugin": {
 	"format": "{}",
@@ -17,7 +17,7 @@ The process runs once, outputs and dies. Then it is triggered by interval though
 }
 ```
 
-### Refresh continuously by Newline json and repeat output at will.
+### Refresh continuously by new json lines and repeat output at will.
 ```
 "custom/lunch": {
 	"format": "{}",
