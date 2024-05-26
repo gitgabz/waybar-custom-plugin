@@ -46,7 +46,7 @@ func main() {
 func triggerBySignal() {
 	/*
 		# Refresh by interrupt signal, restarts the process that has exited.
-		# The process runs once, outputs and dies. Then is triggered by interval though signal or directly by SIGRTMIN+8 signal "pkill -RTMIN+8 waybar"
+		# The process runs once, outputs and dies. Then it is triggered by interval through signal or directly by SIGRTMIN+8 signal "pkill -RTMIN+8 waybar"
 
 		"custom/lunch": {
 			"format": "{}",
